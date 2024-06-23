@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #1a2229;
+}
+
+.mainpage,
+.lastpage,
+.helppage,
+.startpage,
+.askmusic,
+.youtube{
+    display: none;
+    transition: 0.7s;
+}
+
+.computerside{
+    height: 49vh;
+    width: 100vw;
+    background-color: #e17055;
+    border-bottom: 3px solid rgb(73, 73, 73);
+}
+
+.level-1,
+.level-2,
+.level-3,
+.level-4,
+.level-5{
+    display: inline-block;
+    height: 2vh;
+    width: 20vw;
+    background-color: rgb(219, 219, 219);
+}
+
+.playerside{
+    height: 49vh;
+    width: 100vw;
+    background-color: #74b9ff;
+    border-top: 3px solid rgb(73, 73, 73);
+}
+
+.cscore{
+    z-index: 2;
+    height: 9vh;
+    width: 11vw;
+    background-color: #fed330;
+    margin-left: 90vw;
+    margin-top: 19vh;
+    text-align: center;
+    font-size: 8vh;
+    border-radius: 20px 0 0 20px;
+}
+.pscore{
+    z-index: 2;
+    height: 9vh;
+    width: 11vw;
+    background-color: #fed330;
+    margin-left: 90vw;
+    margin-top: 19vh; 
+    text-align: center;
+    font-size: 8vh;
+    border-radius: 20px 0 0 20px;
+}
+
+.selections{
+    z-index: 4;
+    height: 12vh;
+    width: 60vw;
+    background-color: #fed330;
+    margin-top: -10vh;
+    text-align: center;
+    margin-left: 20vw;
+    border-radius: 20px 20px 0 0;
+}
+
+.cchoice{
+    z-index: 3;
+    height: 45vh;
+    width: 70vw;
+    margin-top: -28vh;
+    margin-left: 15vw;
+    font-size: 150px;
+    text-align: center;
+    transform: rotate(180deg);
+}
+
+.pchoice{
+    z-index: 3;
+    height: 45vh;
+    width: 70vw;
+    font-size: 150px;
+    margin-top: -25vh;
+    margin-left: 15vw;
+    text-align: center;
+}
+
+.btn{
+    top: 50%;
+    left: 13%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    font-size: 150%;
+    border: none;
+    outline: none;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(116, 116, 116);
+}
+
+.fieldumpire{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.555);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    transition: 0.5s;
+    z-index: 10;
+}
+
+.startpage{
+    text-align: center;
+}
+
+.name{
+    margin-top: 9vh;
+    font-size: 8vh;
+    margin-bottom: 20vh;
+}
+
+.startbtn{
+    margin-top: 1vh;
+    height: 10vh;
+    width: 70vw;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 3.7vh;
+    font-weight: bolder;
+    background-color: #5f27cd;
+    color: white;
+    /* box-shadow: 0 0 7px #0e5992; */
+}
+
+#easy{
+    margin-top: 4vh;
+}
+
+.namecontainer{
+    height: 50vh;
+    width: 100vw;
+    background-color: #ff6b6b;
+}
+
+
+
+.modecontainer{
+    height: 50vh;
+    width: 100vw;
+    background-color: #ff6b6b;
+}
+
+.container{
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+.words{
+    height: 50vh;
+    width: 100vw;
+    font-size: 7vh;
+    text-align: center;
+    background-color: #fd79a8;
+}
+
+#winning{
+    margin-top: 30vh;
+}
+
+.playagaincontainer{
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+    background-color: #fd79a8;
+}
+
+.playagain{
+    margin-top: 5vh;
+    height: 8vh;
+    width: 80vw;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-size: 4vh;
+    background-color: #ff248e;
+    box-shadow: 0 0 20px #921752;
+}
+
+.rulesandplaying{
+    height: 90vh;
+    width: 100vw;
+    margin-top: 5vh;
+    border-radius: 30px;
+    background-color: #fab1a0;
+    color: white;
+    text-align: center;
+}
+
+.heading{
+    margin: 5px;
+    font-size: 6vh;
+}
+
+.rules{
+    text-align: left;
+    margin-left: 7vw;
+    font-size: 3.5vh;
+}
+
+.back{
+    height: 6vh;
+    width: 80vw;
+    margin-top: 3vh;
+    font-size: 4vh;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff6a49;
+    box-shadow: 0 0 10px #8a3927;
+}
+
+button{
+    cursor: pointer;
+}
+
+.askmusic{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(250, 176, 58);
+    transition: 0.7s;
+}
+
+.musicplaying{
+    margin-top: 35vh;
+    padding: 0 10vw 0 10vw;
+    text-align: center;
+    font-size: 4vh;
+}
+
+.yes, 
+.no{
+    margin: 1vh 0 1vh 0;
+    height: 10vh;
+    width: 80vw;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 4vh;
+}
+
+.yes{
+    margin-top: 6vh;
+}
+
+.loader{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    text-align: center;
+}
+
+.loaderContainer{
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+.line{
+    height: 1px;
+    width: 252px;
+    border-top: 10px solid white;
+}
+
+
+.cover{
+    height: 70px;
+    width: 252px;
+    z-index: 5;
+}
+
+.circle{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 50%;
+    border: 10px solid rgba(255, 255, 255, 0);
+    border-top-color: white;
+    border-right-color: white;
+    transform: rotate(-45deg);
+    margin-top: -41px;
+    margin-left: 160px;
+    animation: moving 2s linear infinite;
+}
+
+.loadingText{
+    color: white;
+    font-size: 25px;
+}
+
+@keyframes moving{
+    0%, 100%{
+        margin-left: 160px;
+    }
+
+    50%{
+        margin-left: 20px;
+    }
+}
+
+.youtube{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(55, 196, 200);
+    text-align: center;
+}
+
+.imp{
+    margin-top: 10vh;
+    font-size: 40px;
+}
+
+.news{
+    text-align: left;
+    margin-top: 3px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.ytlink,
+.continue{
+    height: 10vh;
+    width: 90vw;
+    border: none;
+    outline: none;
+    margin-top: 5vh;
+    border-radius: 20px;
+    font-size: 4vh;
+}
+
+.continue{
+    margin-top: 30vh;
+}
+
+.ytlink{
+    background-color: rgba(255, 255, 255, 0);
+}

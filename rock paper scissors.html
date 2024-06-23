@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="rock paper scissors.css">
+    <script src="rock paper scissors.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="loader" id="loader">
+        <div class="loaderContainer">
+            <div class="cover"></div>
+            <div class="line"></div>
+            <div class="circle"></div>
+            <span class="loadingText">Loading...</span>
+        </div>
+    </section>
+    <section class="askmusic" id="askmusic">
+        <div class="musicplaying">
+            Do you want background music?<br>
+            <button class="yes" id="yesside">Yes</button><br>
+            <button class="no" id="noside">No</button>
+            <audio src="https://www.dropbox.com/s/xhx62797lpm901g/bensound-creativeminds.mp3?raw=1"
+                id="backmusic"></audio>
+        </div>
+    </section>
+    <section class="youtube" id="youtube">
+        <h1 class="imp">Important</h1>
+        <p class="news">
+            Hi Friends! After completing 1.4K followers on Sololearn I have started my Youtube Channel of coding. I hope
+            that you will support my channel. <br>
+        </p>
+        <button class="ytlink"><a href="https://www.youtube.com/channel/UCiZ4H3_pvS7FS9IcSgx552g?view_as=subscriber"
+                target="_blank">My Youtube Channel</a></button><br>
+        <button class="continue" onclick="continuebtn()">Continue</button>
+    </section>
+    <section class="startpage" id="startpage">
+        <div class="namecontainer">
+            <h1 class="name">Rock ✊<br>Paper 🖐<br>Scissor ✌</h1>
+        </div>
+        <div class="modecontainer">
+            <button id="easy" class="startbtn" onclick="easymode()">Easy</button><br>
+            <button id="medium" class="startbtn" onclick="mediummode()">Medium</button><br>
+            <button id="hard" class="startbtn" onclick="hardmode()">Hard [interesting]</button><br>
+            <button id="info" class="startbtn" onclick="help()">Help</button>
+        </div>
+    </section>
+    <section class="mainpage" id="mainpage">
+        <div class="computerside">
+            <div class="cscore" id="cscore"></div>
+            <div class="cchoice" id="cchoice">✌</div>
+        </div>
+        <div class="playerside">
+            <div class="pscore" id="pscore"></div>
+            <div class="pchoice" id="pchoice"></div>
+            <div class="selections" id="selections">
+                <button id="rock" onclick="selected('rock')" class="btn">✊</button>
+                <button id="paper" onclick="selected('paper')" class="btn">🖐</button>
+                <button id="scissor" onclick="selected('scissors')" class="btn">✌</button>
+            </div>
+        </div>
+        <div class="bottomline">
+            <div class="level-1" id="level-1"></div>
+            <div class="level-2" id="level-2"></div>
+            <div class="level-3" id="level-3"></div>
+            <div class="level-4" id="level-4"></div>
+            <div class="level-5" id="level-5"></div>
+        </div>
+        <div class="fieldumpire" id="fieldumpire">
+        </div>
+    </section>
+    <section class="lastpage" id="lastpage">
+        <div class="container">
+            <div class="words">
+                <p id="winning">You Win<br>🎊🎊🎊</p>
+            </div>
+            <div class="playagaincontainer">
+                <button class="playagain" onclick="playagain()">Play again</button><br>
+                <button class="ytlink"><a
+                        href="https://www.youtube.com/channel/UCiZ4H3_pvS7FS9IcSgx552g?view_as=subscriber"
+                        target="_blank">My Youtube Channel</a></button>
+            </div>
+        </div>
+    </section>
+    <section class="helppage" id="helppage">
+        <div class="rulesandplaying">
+            <h1 class="heading">Rules and Playing</h1>
+            <p class="rules">
+                1. Rock✊ beats Scissor✌. <br>
+                2. Paper🖐 beats Rock✊. <br>
+                3. Scissor✌ beats Paper🖐. <br>
+                4. One who will win more rounds or 3 rounds in a match will be winner.<br>
+                5. You have to select your weapon given below in game. <br>
+                6. Select the level of hardness as your wish💪. <br>
+                7. This game is totally luck based🤞. <br>
+                8. Kill your boredom and enjoy now🤘.
+            </p>
+            <button class="back" onclick="back()">Back</button>
+        </div>
+    </section>
+</body>
+
+</html>
