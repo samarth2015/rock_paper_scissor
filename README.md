@@ -6,7 +6,7 @@ This project is a fun and interactive web-based game where users can play Rock, 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/user-attachments/assets/2f45ddcb-7f96-4b03-9017-e1e54778fb5d" alt="Game Screenshot 1" width="45%" />
   <img src="https://github.com/user-attachments/assets/9cd31702-78cc-4ac1-9ad6-1d01ab704a38" alt="Game Screenshot 2" width="45%" />
-  <img src="https://github.com/user-attachments/assets/22b6c39d-fbdd-4e0b-b14b-fd3607fbaa5d" alt="Game Screenshot 2" width="45%" />
+  <img src="https://github.com/user-attachments/assets/22b6c39d-fbdd-4e0b-b14b-fd3607fbaa5d" alt="Game Screenshot 3" width="45%" />
 </div>
 
 
@@ -16,28 +16,11 @@ This project is a fun and interactive web-based game where users can play Rock, 
 ## Objective
 The goal of this project was to develop an engaging game with a user-friendly interface, offering different levels of difficulty to cater to various skill levels.
 
-## Role and Responsibilities
-**Role: Frontend Developer**
-
-### Responsibilities
-- Designed and implemented the game interface using HTML, CSS, and JavaScript.
-- Created interactive elements to enhance user engagement.
-- Developed different difficulty levels to provide a varied gaming experience.
-
 ## Features
 - **User-Friendly Interface**: A simple and intuitive design to ensure an enjoyable user experience.
 - **Multiple Difficulty Levels**: Choose between easy, medium, and hard levels to challenge your skills.
 - **Responsive Design**: Optimized for both desktop and mobile devices for smooth gameplay.
 
-## Actions Taken
-- Built a responsive and engaging game interface.
-- Integrated logic for different difficulty levels to provide a challenging gameplay experience.
-- Ensured smooth gameplay through efficient coding and thorough debugging.
-
-## Results and Impact
-- Delivered a fully functional and engaging web-based game.
-- Improved skills in frontend development, particularly in creating interactive web applications.
-- Enhanced understanding of user experience and interface design.
 
 ## How to Play
 1. Open the game in your web browser.
